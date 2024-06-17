@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, html{
+  background-color: burlywood;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  display: inline flexbox;
+}
+.flex-container {
+  display: flex;
+  height: auto;
+  align-items: strecht;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.a{
+  font-size: 5px;
+}
+.login {
+  font-size: 5px;
+}
+input {
+  margin: 0 auto;
+  
+}
+header {
+  background-color: rgb(164, 172, 172);
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.rodape{
+ color: #000000;   
+      
+ background-color: #22D4FD;
+ padding: 24px;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 24px;
+ font-weight : 400;
+}
+h5{
+  margin: 0;
+}
+#item3{
+  display: inline flexbox;
+  padding-top: 0;
+
+  background-color: aquamarine;
+}
+</style>
+</head>
+<body>
+
+<header> 
+  <h2> 
+    O alinhamento é assim ou não
+  </h2>
+  <p>Esse é o local</p>
+</header>
+
+<p>The "align-items: flex-end;" aligns the flex items at the bottom of the container:</p>
+
+<div class="flex-container">
+  <div class= "login">
+  	<label>Usuario: </label>
+    <input type="text" >
+    <label>Senha: </label>
+    <input type="text" >
+    <a href="#" >Esqueci</a>
+  
+  </div>
+  <div></div>
+  <div class="item3" id="item3">
+    <h5>Inscreva-se</h5>
+    <label>Nome: </label>
+    <input type="text">
+    <label>Senha: </label>
+    <input type="text"><br>
+    <button>Submit</button>
+  </div>  
+</div>
+<footer class = "rodape" > <p>Teste do teste</p></footer>
+</body>
+</html>
+
+
