@@ -47,7 +47,7 @@
             grid-template-areas: 
                 'header header header header header header'
                 'menu main main main main right'
-                'footer footer footer footer footer footer';;
+                'footer footer footer footer footer footer';
         }
         @media screen and (max-width: 550px)
         {
@@ -58,14 +58,20 @@
                 grid-template-areas: 
                 'header header header'
                 'menu main main'
-                'menu right right' 
+                'menu right right'
                 'footer footer footer';
             }
         }
         .menu{
             grid-area: menu;
             background-color: yellowgreen;
-
+            max-width: 150px;
+        }
+        li{
+            background-color: gold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100px;
         }
         main{
             grid-area: main;
